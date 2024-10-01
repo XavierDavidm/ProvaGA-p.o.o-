@@ -1,0 +1,25 @@
+#classes: sistema, hotel, cliente, quarto, reserva
+
+#sistema->contem as outras classes
+#hotel->nomeHotel,idHotel e classe Quarto
+#cliente-> Nome,idCliente,CPF,
+
+#caso de uso
+#1 reserva
+#cliente entra em contato com o hotel
+#clinte faz o pedido de reserva
+#hotel confirma se há um quarto disponivel
+#hotel pede dados ao cliente e realiza sua reserva #dataReserva,cpf,nome,formaDePagamento
+#hotel finaliza reserva que fica salva no sistema
+
+#check-in
+#cliente entra no hotel e começa o check-in
+#hotel pergunta os dados do cliente para confirmar sua identidade
+#cliente confirma seus dados e realiza pagamento(se já não foi pago na hora da reserva)
+#hotel libera entrada do cliente(entregar chave) e registra o quarto como ocupado
+
+#check-out
+#no fim do tempo de estadia cliente desocupa o quarto e começa o check-out
+#cliente entrega a chave e confirma sua saida
+#hotel confirma os dados do cliente
+#hotel registra a saida do cliente e marca quarto como livre para nova reserva 
